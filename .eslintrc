@@ -1,0 +1,9 @@
+---
+  rules:
+    quotes: 2, "single"
+  env:
+    browser: true
+    es6: true
+  ecmaFeatures:
+    modules: true
+
