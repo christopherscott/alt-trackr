@@ -1,9 +1,17 @@
----
+  parser: babel-eslint
   rules:
-    quotes: 2, "single"
+    quotes:
+      - 2
+      - single
+    camelcase: 0
+    no-underscore-dangle: 0
+    no-unused-vars: 1
   env:
     browser: true
     es6: true
+    node: true
   ecmaFeatures:
     modules: true
-
+    jsx: true
+  plugins:
+    - react
